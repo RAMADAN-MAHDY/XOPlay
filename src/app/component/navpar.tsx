@@ -1,7 +1,7 @@
 'use client'
 import Link from "next/link";
-const Navpar = ({param}) => {
-    console.log(param)
+const Navpar = () => {
+    // console.log(param)
     return (
         <>
         <header className="flex w-full justify-between px-2 py-3 bg-[#26a4c7] font-[800] text-[26px] fixed">
