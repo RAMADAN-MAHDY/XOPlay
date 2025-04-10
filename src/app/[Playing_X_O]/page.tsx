@@ -11,17 +11,17 @@ type names =string;
 
 const Today:React.FC = ({params}:any) => {
 
-const [param, setparam] = useState<boolean>(false)
+// const [param, setparam] = useState<boolean>(false)
 
 const name_one:names =useContext(PlayerName1);
 
-useEffect(()=>{
-    setparam(params.Playing_X_O === 'Playing_X_O')
-{/* <Navpar param={params.Playing_X_O === 'Playing_X_O'}/> */}
-},[])
-useEffect(()=>{
- <Navpar param={param}/>
-},[])
+// useEffect(()=>{
+//     setparam(params.Playing_X_O === 'Playing_X_O')
+// {/* <Navpar param={params.Playing_X_O === 'Playing_X_O'}/> */}
+// },[])
+// useEffect(()=>{
+//  <Navpar />
+// },[])
 // console.log(param)
 
 const [call ,setcall] = useState<string[]>(['','','','','','','','','']);
